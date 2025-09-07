@@ -1,0 +1,116 @@
+* {
+  font-family:Verdana, sans-serif;
+  margin:0;
+  box-sizing: border-box;
+}
+
+main {
+ width:100vw;
+ height:100vh;
+ position:fixed;
+  background: linear-gradient(115deg,
+   yellow,
+   yellow 50%,
+   blue 50%,
+   blue) ;
+   padding-top:100px;
+   padding-bottom:100px;
+   overflow:auto;
+
+   scrollbar-width: none;
+   -ms-overflow-style: none;
+ 
+}
+
+main::-webkit-scrollbar {
+  display:none;
+}
+
+
+div {
+  position:relative;
+  margin:auto auto;
+  background-color: rgb(196, 231, 214);
+  width:80vw;
+  max-width:700px;
+  min-width:400px;
+  padding: 20px 20px;
+}
+
+h1 {
+  text-align:center;
+  padding-top:30px;
+  font-size:40px
+}
+
+p {
+  text-align:center;
+  padding-top:10px;
+}
+
+div fieldset {
+  border:none;
+  margin:20px 20px;
+}
+
+fieldset legend {
+  font-size:20px;
+  font-weight:bold;
+}
+
+fieldset label {
+  display:block;
+  font-size:18px;
+}
+
+label select,textarea {
+  display:block;
+}
+
+#name,#email,#number {
+  display:block;
+  margin-top:0.25em;
+}
+
+#submit {
+  margin:30px auto;
+  display:block;
+  width:150px;
+  height:35px;
+  border:1px solid black;
+  font-weight:bold;
+  font-size:15px;
+}
+
+.relevant-Details label,.account-Details label {
+  margin-top:0.5em;
+  margin-left:0.25em;
+}
+
+.personal-Details label,.info-Details label {
+  margin-top:0.5em;
+  margin-left:0.5em;
+}
+
+#opinion {
+  margin-top:1.25em;
+  margin-left:0.5em;
+  height:40px;
+  width:200px;
+}
+
+#dropdown {
+  height:25px;
+  width:120px;
+}
+
+#for-opinion {
+  font-weight:bold;
+  font-size:20px;
+}
+
+#personal-account,#work-account,#option1,#option2,#option3,#option4 {
+  vertical-align:-1px;
+  margin-right:8px;
+}
+
